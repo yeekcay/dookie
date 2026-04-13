@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF006E"/>
+      <stop offset="100%" style="stop-color:#BF00FF"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <circle cx="256" cy="256" r="240" fill="url(#bgGrad)"/>
+  
+  <!-- Dookie/Poop main shape -->
+  <path fill="#8B4513" d="M160 170c0-35 45-65 96-65s96 30 96 65c0 20-15 35-33 45 20 10 33 30 33 55 0 25-18 45-40 55 20 10 33 30 33 55 0 40-55 75-120 75s-120-35-120-75c0-25 13-45 33-55-22-10-40-30-40-55 0-25 13-45 33-55-18-10-33-25-33-45z"/>
+  
+  <!-- Highlight layer -->
+  <path fill="#A0522D" d="M185 145c0-25 38-48 83-48s83 23 83 48c0 15-12 28-28 35 15 7 28 20 28 38 0 20-28 42-68 50 18 5 28 20 28 38 0 25-45 50-95 50s-95-25-95-50c0-18 10-33 28-38-40-8-68-30-68-50 0-18 13-31 28-38-16-7-28-20-28-35z"/>
+  
+  <!-- Winking eye (left) -->
+  <path fill="none" stroke="#000" stroke-width="12" stroke-linecap="round" d="M180 220 L230 220"/>
+  
+  <!-- Open eye (right) -->
+  <ellipse cx="315" cy="210" rx="25" ry="30" fill="#000"/>
+  <ellipse cx="325" cy="200" rx="10" ry="12" fill="#fff"/>
+  
+  <!-- Mouth -->
+  <path fill="#000" d="M200 290c15 25 40 38 70 38s55-13 70-38c0 0-15-12-35-12-15 0-22 12-35 12s-20-12-35-12c-20 0-35 12-35 12z"/>
+  
+  <!-- Tongue -->
+  <path fill="#FF006E" d="M235 315c0 0 20 35 35 35s35-35 35-35z"/>
+  
+  <!-- Flies -->
+  <g fill="#00F5FF">
+    <ellipse cx="380" cy="140" rx="15" ry="10"/>
+    <line x1="380" y1="140" x2="370" y2="125" stroke="#00F5FF" stroke-width="4"/>
+    <line x1="380" y1="140" x2="390" y2="125" stroke="#00F5FF" stroke-width="4"/>
+    <line x1="380" y1="140" x2="370" y2="155" stroke="#00F5FF" stroke-width="4"/>
+    <line x1="380" y1="140" x2="390" y2="155" stroke="#00F5FF" stroke-width="4"/>
+  </g>
+  
+  <g fill="#00F5FF">
+    <ellipse cx="420" cy="170" rx="12" ry="8"/>
+    <line x1="420" y1="170" x2="412" y2="158" stroke="#00F5FF" stroke-width="3"/>
+    <line x1="420" y1="170" x2="428" y2="158" stroke="#00F5FF" stroke-width="3"/>
+    <line x1="420" y1="170" x2="412" y2="182" stroke="#00F5FF" stroke-width="3"/>
+    <line x1="420" y1="170" x2="428" y2="182" stroke="#00F5FF" stroke-width="3"/>
+  </g>
+  
+  <!-- Sparkles -->
+  <g fill="#39FF14">
+    <path d="M90 230 L100 210 L110 230 L100 250 Z"/>
+    <path d="M120 290 L135 260 L150 290 L135 320 Z"/>
+  </g>
+  
+  <g fill="#FFD700">
+    <path d="M420 260 L430 240 L440 260 L430 280 Z"/>
+  </g>
+  
+  <!-- App name -->
+  <text x="256" y="460" font-family="Arial Black, sans-serif" font-size="60" font-weight="900" fill="#fff" text-anchor="middle">dookie</text>
+</svg>
