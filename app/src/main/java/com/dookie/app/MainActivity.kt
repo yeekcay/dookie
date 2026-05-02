@@ -345,7 +345,7 @@ fun VibeCheckScreen(onBack: () -> Unit) {
             color = Color.Gray,
             modifier = Modifier
                 .clickable { onBack() }
-                .padding(16.dp)
+                .padding(start = 16.dp, end = 16.dp, top = 16.dp, bottom = 64.dp)
         )
         
         Spacer(modifier = Modifier.height(20.dp))
@@ -434,7 +434,7 @@ fun BrainrotGenerator(onBack: () -> Unit) {
             color = Color.Gray,
             modifier = Modifier
                 .clickable { onBack() }
-                .padding(16.dp)
+                .padding(start = 16.dp, end = 16.dp, top = 16.dp, bottom = 64.dp)
         )
         
         Spacer(modifier = Modifier.height(20.dp))
@@ -569,7 +569,7 @@ fun RizzCalculator(onBack: () -> Unit) {
             color = Color.Gray,
             modifier = Modifier
                 .clickable { onBack() }
-                .padding(16.dp)
+                .padding(start = 16.dp, end = 16.dp, top = 16.dp, bottom = 64.dp)
         )
         
         Spacer(modifier = Modifier.height(20.dp))
